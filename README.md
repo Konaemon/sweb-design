@@ -1,3 +1,9 @@
+## 基本ルール
+
+develop1からブランチを切って作業すること。
+masterはPJ完成後に反映する予定。
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
