@@ -9,8 +9,23 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      boxShadow: {
+        mdl: "0px 2px 10px 0px rgba(0, 89, 154, 0.10)",
+      },
+      fontFamily: {
+        body: ["Microsoft Sans Serif"],
+      },
+      colors: {
+        cp: {
+          blsck: "#333",
+          red: "#EE152E",
+          blue: "#194EA9",
+          green: "#20A14D",
+          yellow: "#F5AB54",
+          lightBlue: "#229ED2",
+          gray: "#F8F8F8",
+        },
       },
     },
   },
