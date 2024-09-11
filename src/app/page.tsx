@@ -1,6 +1,6 @@
 'use client'
-import Header from "./components/common/header/page";
 import { useState } from "react";
+import Header from "./components/common/header/page";
 
 const Home = () => {
   const [isSearchTerm, setSearchTerm] = useState("");
